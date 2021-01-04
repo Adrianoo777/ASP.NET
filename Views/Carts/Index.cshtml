@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MusicShop.Models.Cart>
+
+@{
+    ViewData["Title"] = "Koszyk";
+}
+
+<h1>Koszyk</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ilość
+            </th>
+            <th>
+                Przedmiot
+            </th>
+            <th>Cena za sztukę</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instrument.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instrument.Price)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id">Usuń z koszyka</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
