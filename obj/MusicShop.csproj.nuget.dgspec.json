@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Komputer PC\\source\\repos\\MusicShop\\MusicShop.csproj": {}
+    "D:\\MusicShop\\MusicShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Komputer PC\\source\\repos\\MusicShop\\MusicShop.csproj": {
+    "D:\\MusicShop\\MusicShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Komputer PC\\source\\repos\\MusicShop\\MusicShop.csproj",
+        "projectUniqueName": "D:\\MusicShop\\MusicShop.csproj",
         "projectName": "MusicShop",
-        "projectPath": "C:\\Users\\Komputer PC\\source\\repos\\MusicShop\\MusicShop.csproj",
-        "packagesPath": "C:\\Users\\Komputer PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Komputer PC\\source\\repos\\MusicShop\\obj\\",
+        "projectPath": "D:\\MusicShop\\MusicShop.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\MusicShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Komputer PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
